@@ -31,7 +31,7 @@ namespace WebApiCore.Controllers
             
             /*ToList() es un método de Extension para toda clase que implementa 
             la interface IEnumerable y se encuentra en Linq.*/
-            return _context.Cursos.ToList();
+            return _context.Curso.ToList();
         }
     }
 }
